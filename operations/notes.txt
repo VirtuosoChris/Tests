@@ -1,0 +1,12 @@
+uint8 has the best division times
+
+unsigned has much better division performance for the same size.  
+
+double has best add mul sub performance, but float has better div performance.  
+
+long doubles are just slow in general.  Makes since since they're 2x word size
+
+uint64 division is much slower than 16 and 32
+
+All the other comparisons you could think of, increasing the # bytes or switching from signed to unsigned don't really seem to make any appreciable difference at all.  
+
